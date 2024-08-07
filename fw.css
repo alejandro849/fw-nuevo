@@ -1,0 +1,34 @@
+body {
+    background-color: black;
+    color: gold;
+}
+.fran-f{
+    border-radius: 50%;
+}
+
+
+
+
+a{
+    color: gold;
+}
+
+.ul{
+    display: flex; justify-content: space-between;
+    
+}
+.buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.button img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%; /* Hace que las imágenes sean redondas */
+    border: none; /* Elimina cualquier borde */
+    box-shadow: none; /* Elimina cualquier sombra */
+}
+
